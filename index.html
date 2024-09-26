@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Street Writters</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Incluir Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Incluir jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <!-- Incluir Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+         <img src="assets/img/logoNav.png" alt="Logotipo de Graff Crew"> 
+         <h1 class="sitename">CREW</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#bienvenido" class="">Bienvenido</a></li>
+          <li><a href="index.html#historia">Historia</a></li>
+          <li class="dropdown"><a href="#"><span>Biblioteca</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#galeria">Galería</a></li>
+              <li><a href="#libreria">Librería</a></li>
+              <li><a href="#videoclub">Videoclub</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#contact">Contacto</a></li>
+          <li class="dropdown"><a href="#"><span>Documentación</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="designSystem.html" target="_blank">Sistema de diseño</a></li>
+              <li><a href="memoria.pdf" target="_blank">Memoria</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Bienvenido Section -->
+    <section id="bienvenido" class="bienvenido section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 class="">Graffiti is not a crime</h1>
+            <p class="">Página dedicada al graffiti internacional</p>
+            <div class="d-flex">
+              <a href="#historia" class="btn-get-started">Conocer más..</a>
+              <a href="https://www.youtube.com/watch?v=HyjZ-zHzXN0" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Ver Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img">
+            <img src="assets/img/graffBote.avif" class="img-fluid animated" alt="Dibujo de Spray con dientes">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Bienvenido Section -->
+
+    <!-- Historia Section -->
+    <section id="historia" class="historia section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Historia del graffiti</h2>
+        <p>
+          A nivel mundial, el graffiti es considerado como una expresión artística capaz de comunicar de forma visual los pensamientos y sentimientos del 
+          escritor urbano, expresar desacuerdos, desigualdades e incluso injusticias de una sociedad. Por ello, se lo relaciona con la rebeldía y 
+          el vandalismo.
+          <br><br>
+          Sin embargo, en las últimas décadas ha emergido un cambio en la percepción del graffiti, siendo cada vez más aceptado como una forma legítima 
+          de arte callejero. Muchas ciudades han creado espacios específicos para que los artistas urbanos plasmen sus obras, transformando así los muros 
+          grisáceos en lienzos vibrantes y coloridos. Este reconocimiento ha llevado a algunos graffiteros a obtener renombre internacional, participando 
+          en exposiciones y colaboraciones con marcas reconocidas por todo el mundo en distintos sectores. 
+          <br><br>
+          Aunque aún persisten controversias en torno a la legalidad y la ética 
+          del graffiti, generando debates sobre el límite entre la expresión artística y el vandalismo, el graffiti continúa siendo 
+          un medio poderoso para transmitir mensajes y provocar reflexiones en la sociedad contemporánea.
+        </p>
+
+        <!-- Carrousel -->    
+        <div class="container-fluid carousel-container">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <!-- /Indicators -->
+
+            <!-- Imagenes del Carrousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carrusel/carr1.jpg" alt="Graffiti de Los Angeles">
+              </div>
+              
+              <div class="carousel-item">
+                <img src="assets/img/carrusel/carr2.jpg" alt="Graffiti de Chicago">
+              </div>
+              
+              <div class="carousel-item">
+                <img src="assets/img/carrusel/carr3.jpg" alt="Graffiti de Spain">
+              </div>
+
+              <div class="carousel-item">
+                <img src="assets/img/carrusel/carr4.jpg" alt="Graffiti de Spain">
+              </div>
+            </div>
+            <!-- /Imagenes del Carrousel -->
+    
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!-- /Left and right controls -->
+  
+          </div>
+        </div>
+        <!-- /Carrousel --> 
+      </div>
+
+      <!-- Estilos Section (dentro de Historia Section)-->
+      <section id="diferenciar-estilos" class="section diferenciar-estilos" data-builder="section">
+
+        <div class="container-fluid">
+     
+          <h3>Aprende a  <strong>diferenciar estilos</strong></h3>
+          <p>No todos los graffitis son iguales, existen diferentes estilos, técnicas y procedimientos.</p>
+          <br>
+            
+            <div class="faq-container px-xl-5 aprende" data-aos="fade-up" data-aos-delay="200">
+              
+              <!-- Graffiti Vandal Explicacion-->
+              <div class="faq-item">
+                <h3> Vandal</h3>
+                <div class="faq-content">
+                  <p>
+                     El término <strong class="strong">graffiti vandal</strong> se refiere a un individuo que realiza graffiti ilegalmente, es decir, que pinta en propiedades públicas o 
+                     privadas sin permiso. Esto incluye la pintura en trenes, edificios, paredes de la ciudad, y otros espacios urbanos. 
+  
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- /Graffiti Vandal Explicacion-->
+
+              <!-- Street Art Explicacion-->
+              <div class="faq-item">
+                <h3>Street Art</h3>
+                <div class="faq-content">
+                  <p>
+                     El <strong class="strong">street art</strong> es una forma de arte urbano que se realiza en espacios públicos, como paredes de la ciudad, calles, edificios abandonados, etc. 
+                     A diferencia del graffiti vandal, el street art a menudo se realiza con el permiso del propietario del espacio o como parte de un proyecto 
+                     artístico oficial. 
+
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- /Street Art Explicacion-->
+
+              <!-- Wild Style Explicacion-->
+              <div class="faq-item">
+                <h3>Wildstyle</h3>
+                <div class="faq-content">
+                  <p>
+                    El <strong class="strong">graffiti wildstyle</strong> wildstyle es un estilo particular dentro del mundo del graffiti que se caracteriza por su complejidad y dificultad de lectura. Este estilo se distingue 
+                    por letras altamente estilizadas, con formas intrincadas, líneas entrelazadas y efectos visuales llamativos. A menudo, las letras en el estilo wildstyle están tan 
+                    estilizadas que pueden ser difíciles de leer para aquellos que no están familiarizados con el lenguaje visual del graffiti.
+
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- /Wild Style Explicacion-->
+
+            </div>
+        </div>
+      </section>
+      <!-- /Estilos Section (dentro de Historia Section)-->
+    </section>
+    <!-- /Historia Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+      <img src="assets/img/osgemeos-bg.jpg" alt="Imagen para el fondo de graffiti realizado por Os Gemeos">
+      <div class="container">
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>¿Quieres conocer lo que se cuece por tu zona?</h3>
+            <p>En el siguiente enlace puedes encontrar un resumen de los mejores libros de graffiti nacional.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://www.writersmadrid.es/blog-writers/mejores-libros-de-graffiti/" target="_blank">COMPRAR LIBRO</a>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!-- /Call To Action Section -->
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="biblioteca section">
+      
+      <!-- Titulo de Galeria-->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Galería</h2>
+        <p>Fotografías de diferentes estilos</p>
+      </div>
+      <!-- /Titulo de Galeria-->
+
+      <!-- Contenedor de Galeria -->
+      <div class="container">
+        <div class="isotope-layout" data-default-filter=".filter-vandal" data-layout="masonry" data-sort="original-order">
+                
+          <!-- Filtros para Galeria -->
+          <ul class="biblioteca-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter=".filter-vandal" class="filter-active">Vandal</li>
+            <li data-filter=".filter-wildstyle">Wild Style</li>
+            <li data-filter=".filter-streetart">Street Art</li>
+          </ul>
+          <!-- /Filtros para Galeria -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                  <!-- Vandal Art -->
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/galeria/vandal1.jpg" class="img-fluid" alt="Ejemplo de graffiti Vandal">
+                    <div class="biblioteca-info">
+                      <h4>Køpi</h4>
+                      <p>Autor: Desconocido</p>
+                      <a href="assets/img/galeria/vandal1.jpg" title="Køpi" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://en.wikipedia.org/wiki/K%C3%B8pi" target="_blank" title="Køpi - Wikipedia" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/galeria/vandal2.jpg" class="img-fluid" alt="Ejemplo de graffiti Vandal">
+                    <div class="biblioteca-info">
+                      <h4>1UP</h4>
+                      <p>Autor: 1UP CREW</p>
+                      <a href="assets/img/galeria/vandal2.jpg" title="1UP" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://ca.wikipedia.org/wiki/1UP" target="_blank" title="1UP - Wikipedia" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/galeria/vandal3.jpg" class="img-fluid" alt="Ejemplo de graffiti Vandal">
+                    <div class="biblioteca-info">
+                      <h4>EL BARTO</h4>
+                      <p>Autor: desconocido</p>
+                      <a href="assets/img/galeria/vandal3.jpg" title="EL BARTO" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://simpsons.fandom.com/es/wiki/El_Barto" target="_blank" title="El Barto - Wikisimpsons" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/galeria/vandal4.jpg" class="img-fluid" alt="Ejemplo de graffiti Vandal">
+                    <div class="biblioteca-info">
+                      <h4>The Freedom Train</h4>
+                      <p>Autor: Desconocido</p>
+                      <a href="assets/img/galeria/vandal4.jpg" title="SOKE" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://en.wikipedia.org/wiki/The_Freedom_Train_(graffiti)" target="_blank" title="The Freedom Train - Wikipedia" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/galeria/vandal5.jpg" class="img-fluid" alt="Ejemplo de graffiti Vandal">
+                    <div class="biblioteca-info">
+                      <h4>El Muelle</h4>
+                      <p>Autor: Muelle </p>
+                      <a href="assets/img/galeria/vandal5.jpg" title="EL MUELLE" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://es.wikipedia.org/wiki/Muelle_(grafitero)" target="_blank" title="El Muelle - Wikipedia" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/galeria/vandal6.jpg" class="img-fluid" alt="Ejemplo de graffiti Vandal">
+                    <div class="biblioteca-info">
+                      <h4>5Pointz</h4>
+                      <p>Autor: Varios (New York) </p>
+                      <a href="assets/img/galeria/vandal6.jpg" title="5Pointz" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://en.wikipedia.org/wiki/5_Pointz" target="_blank" title="5Pointz - Wikipedia" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <!-- /Vandal Art -->
+
+                  <!-- Wildstyle Art -->
+                  
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-wildstyle">
+                    <img src="assets/img/galeria/wildstyle1.jpg" class="img-fluid" alt="Ejemplo de graffiti WildStyle">
+                    <div class="biblioteca-info">
+                      <h4>WILD STYLE 5POINTZ</h4>
+                      <p><p>Autor: MERES</p></p>
+                      <a href="assets/img/galeria/wildstyle1.jpg" title="Pieza Wild Style en 5POINTZ (NY) por Meres" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://proyectoduas.com/2014/06/29/estilo-del-mes-wildstyle/" target="_blank" title="Pieza Wild Style en 5POINTZ (NY) por Meres" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-wildstyle">
+                    <img src="assets/img/galeria/wildstyle2.jpg" class="img-fluid" alt="Ejemplo de graffiti WildStyle">
+                    <div class="biblioteca-info">
+                      <h4>WILD STYLE BY FATCAPGOLD ONE</h4>
+                      <p>Autor: FATCAPGOLD</p>
+                      <a href="assets/img/galeria/wildstyle2.jpg" title="Pieza Wild Style por FATCAPGOLD" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://fatcapgold.wordpress.com/graffiti/estilos/wild-style/" target="_blank" title="Articulo Style" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                              
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-wildstyle">
+                    <img src="assets/img/galeria/wildstyle3.jpg" class="img-fluid" alt="Ejemplo de graffiti WildStyle">
+                    <div class="biblioteca-info">
+                      <h4>WILD STYLE BY FATCAPGOLD</h4>
+                      <p>Autor: FATCAPGOLD</p>
+                      <a href="assets/img/galeria/wildstyle3.jpg" title="Pieza Wild Style por FATCAPGOLD" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://fatcapgold.wordpress.com/graffiti/estilos/wild-style/" target="_blank" title="Articulo Wild Style" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-wildstyle">
+                    <img src="assets/img/galeria/wildstyle4.jpg" class="img-fluid" alt="Ejemplo de graffiti WildStyle">
+                    <div class="biblioteca-info">
+                      <h4>WILD STYLE BY KEROSKILLS</h4>
+                      <p>Autor: KEROSKILLS</p>
+                      <a href="assets/img/galeria/wildstyle4.jpg" title="Pieza Wild Style por KEROSKILLS" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://fatcapgold.wordpress.com/graffiti/estilos/wild-style/" target="_blank" title="Articulo Wild Style" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <!-- /Wildstyle Art -->
+
+                  <!-- Street Art -->
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/galeria/streetart1.jpg" class="img-fluid" alt="Ejemplo de graffiti Street Art de Banksy">
+                    <div class="biblioteca-info">
+                      <h4>Cave Painting</h4>
+                      <p>Autor: Banksy</p>
+                      <a href="assets/img/galeria/streetart1.jpg" title="Cave Painting - Pieza de Banksy" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://es.wikipedia.org/wiki/Banksy" target="_blank" title="Wikipedia de Banksy" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/galeria/streetart2.jpg" class="img-fluid" alt="Ejemplo de graffiti Street Art de Dmitri Vrúbel">
+                    <div class="biblioteca-info">
+                      <h4>Kiss</h4>
+                      <p>Autor: Dmitri Vrúbel</p>
+                      <a href="assets/img/galeria/streetart2.jpg" title="Pieza Kiss de Berlin" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://es.wikipedia.org/wiki/Dmitri_Vr%C3%BAbel" target='_blank' title="Wikipedia de Dmitri Vrúbel" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/galeria/streetart3.jpg" class="img-fluid" alt="Ejemplo de graffiti Street Art de Banksy">
+                    <div class="biblioteca-info">
+                      <h4>Niña con Globo</h4>
+                      <p>Autor: Banksy</p>
+                      <a href="assets/img/galeria/streetart3.jpg" title="Niña con globo de Bnaksy" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://es.wikipedia.org/wiki/Banksy" target="_blank" title="Wikipedia de Banksy" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/galeria/streetart4.jpg" class="img-fluid" alt="Ejemplo de graffiti Street Art de Os Gemeos">
+                    <div class="biblioteca-info">
+                      <h4>Estocolmo</h4>
+                      <p>Autor:Os Gemeos</p>
+                      <a href="assets/img/galeria/streetart4.jpg" title="Pieza de Os Gemeos" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://en.wikipedia.org/wiki/OSGEMEOS" target='_blank' title="Wikipedia de Os Gemeos" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/galeria/streetart5.jpg" class="img-fluid" alt="Ejemplo de graffiti Street Art de Okuda">
+                    <div class="biblioteca-info">
+                      <h4> Lago del Deseo</h4>
+                      <p>Autor: Okuda</p>
+                      <a href="assets/img/galeria/streetart5.jpg" title="Pieza de Okuda titulada Lago del Deseo" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://okudasanmiguel.com/" target='_blank' title="Página web de Okuda" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/galeria/streetart6.jpg" class="img-fluid" alt="Ejemplo de graffiti Street Art de El Septimo Crio">
+                    <div class="biblioteca-info">
+                      <h4>Tupac Shakur</h4>
+                      <p>Autor: El séptimo crio</p>
+                      <a href="assets/img/galeria/streetart6.jpg" title="Pieza de Cesar Frey" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.elseptimocrio.com/" target='_blank' title="Página web de Cesar Frey" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <!-- /Street Art -->
+
+          </div>
+          <!--  /Contenedor de Galeria -->
+        </div>
+      </div>
+    </section>
+    <!-- /Galeria Section -->
+
+    <!-- Libreria Section -->
+    <section id="libreria" class="biblioteca section">
+      
+      <!-- Titulo de Libreria-->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Librería</h2>
+        <p>Libros de diferentes estilos</p>
+      </div>
+      <!-- /Titulo de Libreria-->
+
+      <!-- Contenedor de Libreria -->
+      <div class="container">
+        <div class="isotope-layout" data-default-filter=".filter-vandal" data-layout="masonry" data-sort="original-order">
+          
+          <!-- Filtros para Libreria -->
+          <ul class="biblioteca-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter=".filter-vandal" class="filter-active">Vandal</li>
+            <li data-filter=".filter-wildstyle">Wild Style</li>
+            <li data-filter=".filter-streetart">Street Art</li>
+          </ul>
+          <!-- /Filtros para Libreria -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                  <!-- Vandal Art -->
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/libreria/libroVandal1.jpg" class="img-fluid" alt="Portada del libro titulado SUBWAY ART">
+                    <div class="biblioteca-info">
+                      <h4>SUBWAY ART 25th </h4>
+                      <p>Autor: Martha Cooper & Henry Chalfant</p>
+                      <a href="assets/img/libreria/libroVandal1.jpg" title="SUBWAY ART 25th" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.iberlibro.com/Subway-Art-25th-Anniversary-Edition-Martha/30850059949/bd" target="_blank" title="SUBWAY ART 25th" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/libreria/libroVandal2.jpg" class="img-fluid" alt="Portada del libro titulado DONDI WHITE">
+                    <div class="biblioteca-info">
+                      <h4>DONDI WHITE</h4>
+                      <p>Autor: Andrew ZEPHYR</p>
+                      <a href="assets/img/libreria/libroVandal2.jpg" title="DONDI WHITE" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.montanacolors.com/productos/dondi/" target="_blank" title="DONDI WHITE" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-vandal">
+                    <img src="assets/img/libreria/libroVandal3.jpg" class="img-fluid" alt="Portada del libro titulado MASCOTS & MUGS">
+                    <div class="biblioteca-info">
+                      <h4>MASCOTS & MUGS</h4>
+                      <p>Autor: Jonathan Lethem</p>
+                      <a href="assets/img/libreria/libroVandal3.jpg" title="MASCOTS & MUGS" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.amazon.es/Mascots-Mugs-Characters-Cartoons-Graffiti/dp/0972592040" target="_blank" title="MASCOTS & MUGS" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <!-- /Vandal Art -->
+
+                  <!-- Wildstyle Art -->
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-wildstyle">
+                    <img src="assets/img/libreria/libroWildStyle2.jpg" class="img-fluid" alt="Portada del libro titulado LEARNING HOW TO DRAW BASIC GRAFFITI">
+                    <div class="biblioteca-info">
+                      <h4>LEARNING HOW TO DRAW BASIC GRAFFITI</h4>
+                      <p>Editorial: Little Artist Smile </p>
+                      <a href="assets/img/libreria/libroWildStyle2.jpg" title="LEARNING HOW TO DRAW BASIC GRAFFITI" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.amazon.es/Learning-Draw-Basic-Graffiti-illustrations/dp/B09M172JBG" target="_blank" title="LEARNING HOW TO DRAW BASIC GRAFFITI" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                                    
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-wildstyle">
+                    <img src="assets/img/libreria/libroWildStyle1.jpg" class="img-fluid" alt="Portada del libro titulado NEXT STOP">
+                    <div class="biblioteca-info">
+                      <h4>NEXT STOP: GROWING UP WILD STYLE IN THE BRONX</h4>
+                      <p><p>Autor: Ivan Sanchez</p></p>
+                      <a href="assets/img/libreria/libroWildStyle1.jpg" title="NEXT STOP: GROWING UP WILD STYLE IN THE BRONX" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.casadellibro.com/libro-next-stop-growing-up-wild-style-in-the-bronx/9781416562672/1779846" target="_blank" title="NEXT STOP: GROWING UP WILD STYLE IN THE BRONX" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                              
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-wildstyle">
+                    <img src="assets/img/libreria/libroWildStyle3.jpg" class="img-fluid" alt="Portada del libro titulado GRAFFITI:LETTERING & DRAWING">
+                    <div class="biblioteca-info">
+                      <h4>GRAFFITI:LETTERING & DRAWING</h4>
+                      <p>Editorial: GRAFFITI ARTISTOOO</p>
+                      <a href="assets/img/libreria/libroWildStyle3.jpg" title="GRAFFITI:LETTERING & DRAWING" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.amazon.es/Graffiti-Lettering-Drawing-Beginners-Wildstyle/dp/B0BBJRFD83" target="_blank" title="GRAFFITI:LETTERING & DRAWING" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <!-- /Wildstyle Art -->
+
+                  <!-- Street Art -->
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/libreria/libroStreetArt1.jpg" class="img-fluid" alt="Portada del libro titulado ULTIMATE STREET ART">
+                    <div class="biblioteca-info">
+                      <h4>ULTIMATE STREET ART</h4>
+                      <p>Autor: Monsa</p>
+                      <a href="assets/img/libreria/libroStreetArt1.jpg" title="ULTIMATE STREET ART" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://amzn.eu/d/5iIH74u" target="_blank" title="ULTIMATE STREET ART" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/libreria/libroStreetArt2.JPG" class="img-fluid" alt="Portada del libro titulado Graffiti y Arte Urbano">
+                    <div class="biblioteca-info">
+                      <h4>Graffiti y Arte Urbano</h4>
+                      <p>Editorial: Susaeta</p>
+                      <a href="assets/img/libreria/libroStreetArt2.jpg" title="Graffiti y Arte Urbano" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://hartem.com/atlas-ilustrado-grafiti-y-arte-urbano.html?lighthousefeed_utm_source=GS+-+Google+Shopping+(Via+LighthouseFeed)&lighthousefeed_utm_medium=cpc&lighthousefeed_utm_term=131871&gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVJs6viWJa-AcUoFDfyo22mVoI1xFmyIRsCmiv-km3GS1Ldlrlvm4kaAqXlEALw_wcB" target="_blank" title="Graffiti y Arte Urbano" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/libreria/libroStreetArt3.jpg" class="img-fluid" alt="Portada del libro titulado The World Atlas of Street Art and Graffiti">
+                    <div class="biblioteca-info">
+                      <h4>The World Atlas of Street Art and Graffiti</h4>
+                      <p>Autor: Rafael Schacter</p>
+                      <a href="assets/img/libreria/libroStreetArt3.jpg" title="The World Atlas of Street Art and Graffiti" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://amzn.eu/d/dHhvQYp" target="_blank" title="The World Atlas of Street Art and Graffiti" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/libreria/libroStreetArt4.jpg" class="img-fluid" alt="Portada del libro titulado Street Art:Tecnicas e Materiais">
+                    <div class="biblioteca-info">
+                      <h4> Street Art: Técnicas e Materiais</h4>
+                      <p>Autor: Benke Carlson & Hop Louie</p>
+                      <a href="assets/img/biblioteca/streetart5.jpg" title="Street Art: Técnicas e Materiais" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.elcorteingles.es/libros/A29809776-street-art-tecnicas-e-materiais-arte-urbano/?gad_source=1&_gl=1*emta99*_up*MQ..&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqUqvQ5AoGB7CzrbwiHeOqPZk3CglsziH2yWEjSY4a5nv5EY03OCF0oaAiEOEALw_wcB&gclsrc=aw.ds" target="_blank" title="Street Art: Técnicas e Materiais" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/libreria/libroStreetArt5.JPG" class="img-fluid" alt="Portada del libro titulado GRAFFITI:EL UNICO ARTE PERSEGUIDO POR LA LEY">
+                    <div class="biblioteca-info">
+                      <h4>GRAFFITI: EL UNICO ARTE PERSEGUIDO POR LA LEY</h4>
+                      <p>Autor: Adolfo Perez & Roberto Rojas</p>
+                      <a href="assets/img/libreria/libroStreetArt5.JPG" title="GRAFFITI: EL UNICO ARTE PERSEGUIDO POR LA LEY" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.casadellibro.com/libro-graffiti-el-unico-arte-perseguido-por-la-ley/9781507620977/2795618?awc=21491_1714742365_f0102cdf4a161454f9338c874c9a8b81&utm_source=awin&utm_campaign=575373&utm_medium=afiliados&utm_content=Ceon%20Internet%20ApS" target="_blank" title="GRAFFITI: EL UNICO ARTE PERSEGUIDO POR LA LEY" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-streetart">
+                    <img src="assets/img/libreria/libroStreetArt6.jpg" class="img-fluid" alt="Portada del libro titulado STREET ART GRAFFITI">
+                    <div class="biblioteca-info">
+                      <h4>Street Art - Graffiti</h4>
+                      <p>Editorial: Cornette de Saint Cyr</p>
+                      <a href="assets/img/libreria/libroStreetArt6.jpg" title="Street Art - Graffiti" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.iberlibro.com/servlet/BookDetailsPL?bi=31721505808&dest=esp&ref_=ps_ggl_17323291122&cm_mmc=ggl-_-ES_Shopp_TradeNONISBNstd-_-product_id=bi%3A%2031721505808-_-keyword=&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqWGxgF1My0na-e9YxoLTDRCLUzN6NEyQT6wDNNG1c_485_VSEgRyxcaAsbmEALw_wcB" target="_blank" title="Street Art - Graffiti" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <!-- /Street Art -->
+
+          </div>
+          <!--  /Contenedor de Biblioteca -->
+        </div>
+      </div>
+    </section>
+    <!-- /Libreria Section -->
+
+      <!-- Videoclub Section -->
+      <section id="videoclub" class="biblioteca section">
+
+        <!-- Titulo de Videoclub-->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Videoclub</h2>
+          <p>Disfruta de las mejores piezas audiovisuales relacionadas con el graffiti</p>
+        </div>
+        <!-- /Titulo de Videoclub-->
+  
+        <!-- Contenedor de Videoclub (dentro de Videoclub Section) -->
+        <div class="container">
+          <div class="isotope-layout" data-default-filter=".filter-peliculas" data-layout="masonry" data-sort="original-order">
+  
+            <!-- Filtros de Videoclub -->
+            <ul class="biblioteca-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+              <li data-filter=".filter-peliculas" class="filter-active">Peliculas</li>
+              <li data-filter=".filter-documental">Documentales</li>
+              <li data-filter=".filter-reportaje">Reportajes</li>
+            </ul>
+            <!-- /Filtros de Videoclub -->
+  
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+  
+                  <!-- Peliculas -->
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-peliculas">
+                    <img src="assets/img/videoclub/pelicula1.jpg" class="img-fluid" alt="Portada de la pelicula titulada Wild Style">
+                    <div class="biblioteca-info">
+                      <h4>WILD STYLE</h4>
+                      <p>Director: Charlie Ahearn</p>
+                      <p>Año: 1982</p>
+                      <a href="assets/img/videoclub/pelicula1.jpg" title="WILD STYLE" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.youtube.com/watch?v=GaXMfw0IJOo" target="_blank" title="WILD STYLE" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-peliculas">
+                    <img src="assets/img/videoclub/pelicula2.jpg" class="img-fluid" alt="Portada de la pelicula titulada Beat Street">
+                    <div class="biblioteca-info">
+                      <h4>BEAT STREET</h4>
+                      <p>Director: Stan Lathan</p>
+                      <p>Año: 1984</p>
+                      <a href="assets/img/videoclub/pelicula2.jpg" title="BEAT STREET" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://ok.ru/video/1743721597538" target="_blank" title="BEAT STREET" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-peliculas">
+                    <img src="assets/img/videoclub/pelicula3.jpg" class="img-fluid" alt="Portada de la pelicula titulada Basquiat">
+                    <div class="biblioteca-info">
+                      <h4>Basquiat</h4>
+                      <p>Director: Julian Schnabel</p>
+                      <p>Año: 1996</p>
+                      <a href="assets/img/videoclub/pelicula3.jpg" title="Basquiat" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://www.youtube.com/watch?v=oiJjlv4SwDg" target="_blank" title="Basquiat" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
+
+                  <!-- /Peliculas -->
+              
+                  <!-- Documentales Item -->
+
+                   <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-documental">
+                     <img src="assets/img/videoclub/documental1.jpg" class="img-fluid" alt="Portada del documental titulado Salida por la tienda de regalos">
+                     <div class="biblioteca-info">
+                       <h4>Salida por la tienda de regalos</h4>
+                       <p>Director: Banksy</p>
+                       <p>Año: 2010 </p>
+                       <a href="assets/img/videoclub/documental1.jpg" title="Salida por la tienda de regalos" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                       <a href="https://www.youtube.com/watch?v=bS2FFddIvgY" target="_blank" title="Salida por la tienda de regalos" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                     </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-documental">
+                    <img src="assets/img/videoclub/documental2.jpg" class="img-fluid" alt="Portada del documental titulado Style Wars">
+                    <div class="biblioteca-info">
+                       <h4>Style Wars</h4>
+                       <p>Director: Tony Silver y Henry Chalfan</p>
+                       <p>Año: 1983</p>
+                       <a href="assets/img/videoclub/documental2.jpg" title="Style Wars" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                       <a href="https://www.youtube.com/watch?v=3rv82rldGRs" target="_blank" title="Style Wars" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-documental">
+                    <img src="assets/img/videoclub/documental3.jpg" class="img-fluid" alt="Portada del documental titulado Stations of the Elevated">
+                    <div class="biblioteca-info">
+                       <h4>Stations of the Elevated</h4>
+                       <p>Director: Manfred Kircheimer</p>
+                       <p>Año: 1977</p>
+                       <a href="assets/img/videoclub/documental3.jpg" title="Stations of the Elevated" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                       <a href="https://www.youtube.com/watch?v=sGWt87S0f24" target="_blank" title="Stations of the Elevated" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-documental">
+                    <img src="assets/img/videoclub/documental4.jpg" class="img-fluid" alt="Portada del reportaje titulado Una semana con 1UP">
+                    <div class="biblioteca-info">
+                       <h4>Una semana con 1UP</h4>
+                       <p>Director: 1UP & Martha Cooper</p>
+                       <p>Año: 2023</p>
+                       <a href="assets/img/videoclub/documental4.jpg" title="Una semana con 1UP" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                       <a href="https://www.youtube.com/watch?v=rSdUzc354N4" target="_blank" title="Una semana con 1UP" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                   </div>
+
+                   <!-- /Documentales -->
+
+                   <!-- Reportajes-->
+
+                   <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-reportaje">
+                      <img src="assets/img/videoclub/reportaje1.jpg" class="img-fluid" alt="Portada del reportaje titulado OS GEMEOS">
+                      <div class="biblioteca-info">
+                          <h4>OS GEMEOS</h4>
+                          <p>Autor: Domestika</p>
+                          <a href="assets/img/videoclub/reportaje1.jpg" title="Os Gemeos" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                          <a href="https://www.youtube.com/watch?app=desktop&v=tJA1vb9jNIM" target="_blank" title="Os Gemeos" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-reportaje">
+                    <img src="assets/img/videoclub/reportaje3.jpg" class="img-fluid" alt="Portada del reportaje titulado OBEY">
+                    <div class="biblioteca-info">
+                        <h4>OBEY</h4>
+                        <p>Autor: Lucas Amat</p>
+                        <a href="assets/img/videoclub/reportaje3.jpg" title="Obey" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <a href="https://www.youtube.com/watch?v=w9QKvKI8LIY" target="_blank" title="Obey" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                 </div>
+
+                   <div class="col-lg-4 col-md-6 biblioteca-item isotope-item filter-reportaje">
+                    <img src="assets/img/videoclub/reportaje2.jpg" class="img-fluid" alt="Portada del reportaje titulado Historia completa del Street Art">
+                    <div class="biblioteca-info">
+                        <h4>Historia completa del Street Art</h4>
+                        <p>Autor: DeGraffitis</p>
+                        <a href="assets/img/videoclub/reportaje2.jpg" title="Historia completa del Street Art" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <a href="https://www.youtube.com/watch?v=RVoGJWXOmso" target="_blank" title="Historia completa del Street Art" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                 </div>
+                        
+                   <!-- /Reportajes -->
+  
+            </div>
+          </div>
+        </div>
+        <!-- /Contenedor de Videoclub (dentro de Videoclub Section) -->
+      </section>
+      <!-- /Videoclub Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>Puedes contactar con nosotros si quieres añadir tu trabajo a la página</p>
+      </div>
+      <!-- /Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+       
+
+          <!-- Contact Form -->
+          <div class="col-lg-12">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Nombre</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Asunto</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Mensaje</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <button type="button" class="btn btn-success">ENVIAR MENSAJE</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+          <!-- /Contact Form -->
+   
+      </div>
+    </section>
+    <!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>Información de contacto</h4>
+          <p>Rubén Fdez</p>
+          <p>Asturias (SP)</p>
+          <p><strong></strong> <span>rubenfdezmartin@gmail.com</span></p>
+        </div>
+
+        <div class="col-lg-4" style="margin-left:0%;">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#bienvenido">Bienvenido</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li>
+              <a href="#galeria">Biblioteca</a><!-- muestro galeria, que es la primera de la lista-->
+              <ul class="dropdown">
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#libreria">Libreria</a></li>
+                <li><a href="#videoclub">Videoclub</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4">
+          <h4>Redes Sociales</h4>
+          <p>También puedes seguirme en las RRSS</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/rubenfdezmartin" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com/rubenfdezmartin" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://linkedin.com/in/rubenfdezmartin" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center mt-4">
+      <img src="assets/img/logoFooter.png" width="70" height="45" alt="Logotipo de Graff Crew"> 
+      <p><a href="https://github.es/rubenfdezmartin" target="_blank">© Design : Rubén Fernández Martín </a></p>
+      
+    </div>
+  </footer>
+  
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

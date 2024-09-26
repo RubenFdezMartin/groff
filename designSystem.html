@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Guia de Estilo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Incluir Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Incluir jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <!-- Incluir Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+ 
+  <nav id="navmenu" class="navmenu"><i class="mobile-nav-toggle d-xl-none bi bi-list"></i></nav>
+  <main class="main">
+
+    <div class="container" style="margin-top: 5%;">
+      <h1>Sobre mi</h1>
+      <p>Este proyecto de guía de estilo está destinado a un colectivo ficticio de graffiti street art. Aquí encontrarás información sobre los colores, tipografías y herramientas recomendadas para desarrolladores.</p>
+  
+      <h2>Colores</h2>      
+      <p>Estos son los colores utilizados para el proyecto.</p>
+
+      <section style="border:1px solid black; padding: 0%;margin-bottom:25px;">
+         <div style="background-color: rgb(8, 8, 8);"><span style="color:rgb(153, 147, 147)">#000000</span></div>
+         <div style="background-color: rgb(71, 178, 228);">#47B2E4</div>
+         <div style="background-color: rgba(55, 81, 126, 0.945);">#37517E</div>
+         <div style="background-color: rgba(68, 68, 68, 0.89);">#444444</div>    
+         <div style="background-color: rgba(255,255,255,0.8);">#FFFFFF</div>
+      </section>
+
+      <h3>Justificación de Colores</h3>
+      <p>Aquí tienes una justificación para el uso de cada uno de los colores:</p>
+
+      <ul>
+
+        <li><p><strong>#000000 (Negro) :</strong> El negro es un color neutral que se utiliza comúnmente para el texto y los elementos de la interfaz que necesitan ser legibles y 
+        contrastar con el fondo. Es útil para proporcionar un fuerte contraste y una alta legibilidad, especialmente en diseño de texto y gráficos.</p></li>
+        
+        <li><p><strong>#47B2E4 (Azul claro) : </strong>El azul claro transmite una sensación de frescura, tranquilidad y claridad. Se puede utilizar para resaltar elementos 
+        importantes o para crear un ambiente relajante. En diseño web, el azul claro es comúnmente utilizado para botones de acción, enlaces o elementos 
+        de navegación que requieren atención pero no necesariamente urgencia.</p></li>
+        
+        <li><p><strong>#37517E (Azul oscuro) : </strong> El azul oscuro transmite una sensación de confianza, seriedad y profesionalismo. Se puede utilizar para crear un contraste 
+        visual fuerte y para destacar elementos importantes en el diseño. En diseño web, el azul oscuro es comúnmente utilizado para encabezados, 
+        títulos y elementos de navegación principales.</p></li>
+        
+        <li><p><strong>#444444 (Gris oscuro) : </strong>El gris oscuro es un color neutral que transmite estabilidad, formalidad y sofisticación. Se puede utilizar para proporcionar 
+        un fondo suave o para resaltar elementos secundarios en el diseño. En diseño web, el gris oscuro es comúnmente utilizado para textos secundarios, 
+        fondos o elementos de navegación menos importantes.</p></li>
+        
+      <li><p><strong>#FFFFFF (Blanco) : </strong> El blanco es un color limpio, fresco y minimalista que se utiliza comúnmente como fondo para crear contraste y resaltar 
+        otros elementos en el diseño. Es útil para proporcionar claridad y legibilidad, especialmente en texto y gráficos sobre fondos oscuros. En diseño web, 
+        el blanco es comúnmente utilizado como fondo para páginas, secciones de contenido y elementos de interfaz.</p></li>
+      
+      </ul>
+      
+      <h2>Tipografías</h2>
+      <p>Las tipografías recomendadas incluyen: "Open Sans", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji".</p>
+
+      <section style="border:1px solid black; padding: 2%;margin-bottom:25px;">
+      <p id="fontCode" >
+      
+        <!-- Contenido del elemento a copiar -->
+
+        /* Fonts */ 
+        @font-face {
+          font-family: 'Open Sans';
+          src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        }
+
+        @font-face {
+          font-family: 'Jost';
+          src: url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+        }
+  
+        @font-face {
+          font-family: 'Poppins';
+          src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        }
+  
+        /* Las variables definidas dentro de :root están disponibles globalmente en todo el documento */
+        :root {
+          --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+          --heading-font: "Jost", sans-serif;
+          --nav-font: "Poppins", sans-serif;
+        }
+      </p>
+    </section>
+      <button id="copyButton" class="btn btn-primary">Copiar Código de Tipografías</button><br><br>
+
+      <h2>Carrousel</h2>
+      <p>Utilizamos <strong><a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Bootstrap 4</a></strong> para implementar un carrousel en el proyecto.</p>
+  
+      <h2>Multimedia</h2>
+      <p>Para las imágenes y contenido multimedia hemos utilizado <strong><a href="https://biati-digital.github.io/glightbox/" target="_blank">Glightbox</a></strong></p>
+  
+      <h2>Botones</h2>
+
+                 <!-- Ejemplo de Boton-->
+                 <section id="diferenciar-estilos" class="section diferenciar-estilos" data-builder="section">
+                  <div class="container-fluid">
+                      <div class="faq-container px-xl-5 aprende" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Boton-->
+                        <div class="faq-item">
+                          <h3> Boton</h3>
+                          <div class="faq-content">
+                            <p>El texto se muestra dentro del propio botón.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div>
+                        <!-- /Boton-->
+                      </div>
+                  </div>
+                </section>
+                <!-- /Ejemplo de Boton-->
+                
+                <!-- Ejemplo de Boton 2 -->
+                <section id="galeria" class="biblioteca section">
+                  <!-- Contenedor de Galeria -->
+                  <div class="container">
+                    <div class="isotope-layout" data-default-filter=".filter-vandal" data-layout="masonry" data-sort="original-order">
+                      <!-- Filtros -->
+                      <ul class="biblioteca-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter=".filter-vandal" class="filter-active">Boton 1</li>
+                        <li data-filter=".filter-wildstyle">Boton 2</li>
+                        <li data-filter=".filter-streetart">Boton 3</li>
+                      </ul>
+                      <!-- /Filtros -->   
+                    </div>
+                  </div>
+                  <!--  /Contenedor de Galeria -->
+                </section>
+      <!-- /Galeria Section -->
+
+      <h2>Bootstrap CSS</h2>
+      <p>Hemos incluido la siguiente hoja de estilos de Bootstrap 4 en el proyecto:</p>
+      <pre><code>&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"&gt;</code></pre>
+      
+      <h2>Bootstrap JS</h2>
+      <p>También hemos necesitado el archivo JavaScript de Bootstrap 4:</p>
+      <pre><code>&lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"&gt;&lt;/script&gt;</code></pre>
+  
+      <h2>jQuery</h2>
+      <p>jQuery es una biblioteca de JavaScript que también nos ha resultado útil será útil para este proyecto:</p>
+      <pre><code>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"&gt;&lt;/script&gt;</code></pre>
+  
+      <h2>NavBar</h2>
+      <p><a href="https://getbootstrap.com/docs/4.1/examples/navbars/" target="_blank">https://getbootstrap.com/docs/4.1/examples/navbars/</a></p>
+
+      <h2>Memoria PDF</h2>
+      <p>El siguiente documento contiene información adicional sobre la guía de estilos en formato visual con información <br>sobre las decisiones de diseño, 
+        los estilos utilizados, las fuentes, los colores y las pautas de diseño.<br><br>
+      
+        <a href="memoria.pdf" class="btn btn-primary" target="_blank">Ver Memoria</a>
+      
+      <h2> Fuentes de Inspiración</h2>
+      <p>A continuación dejo enlaces directos a todas las referencias utilizadas para el proyecto:</p>
+      <ul>
+        <!--Artistas-->
+        <li>
+          <h4>Artistas</h4>
+          <ul>
+            <li><p>Writters Madrid: <a href="https://www.writersmadrid.es/blog-writers/mejores-libros-de-graffiti/" target="_blank">Visita aquí su Blog</a></p></li>
+            <li><p>Barrio de Kopi: <a href="https://en.wikipedia.org/wiki/K%C3%B8pi" target="_blank">Enlace a Wikipedia</a></p></li>
+            <li><p>Barrio de 5Pointz: <a href="https://en.wikipedia.org/wiki/5_Pointz" target="_blank">Enlace a Wikipedia</a></p></li>
+            <li><p>Colectivo 1UP: <a href="https://ca.wikipedia.org/wiki/1UP" target="_blank">Enlace a Wikipedia</a></p></li>
+            <li><p>El Barto: <a href="https://simpsons.fandom.com/es/wiki/El_Barto" target="_blank">Enlace a Wikifandom</a></p></li>
+            <li><p>The Freedom Train: <a href="https://en.wikipedia.org/wiki/The_Freedom_Train_(graffiti)" target="_blank">Enlace a Wikipedia</a></p></li>
+            <li><p>El Muelle: <a href="https://es.wikipedia.org/wiki/Muelle_(grafitero)" target="_blank">Enlace a Wikipedia</a></p></li>
+            <li><p>Proyecto Duas: <a href="https://proyectoduas.com/2014/06/29/estilo-del-mes-wildstyle/" target="_blank">Enlace a página web</a></p></li>
+            <li><p>Banksy: <a href="https://es.wikipedia.org/wiki/Banksy" target="_blank">Enlace a Wikipedia</a></p></li>
+            <li><p>Dmitri Vrúbel: <a href="https://es.wikipedia.org/wiki/Dmitri_Vr%C3%BAbel" target="_blank">Enlace a Wikipedia</a></p></li>
+            <li><p>El séptimo Crío: <a href="https://www.elseptimocrio.com/" target="_blank">Enlace a página web</a></p></li>
+            <li><p>Os Gemeos: <a href="https://en.wikipedia.org/wiki/OSGEMEOS" target="_blank">Enlace a Wikipedia</a></p></li>
+            <li><p>Okuda: <a href="https://okudasanmiguel.com" target="_blank">Enlace a página web</a></p></li>
+          </ul>
+        </li>
+        <!-- Libros -->
+        <li>
+          <h4>Libros</h4>
+          <ul>
+            <li><p>SUBWAY ART 25th: <a href="https://www.iberlibro.com/Subway-Art-25th-Anniversary-Edition-Martha/30850059949/bd" target="_blank">Visita aquí su Blog</a></p></li>
+            <li><p>DONDI WHITE: <a href="https://www.montanacolors.com/productos/dondi/" target="_blank">Enlace a compra</a></p></li>
+            <li><p>MASCOTS & MUGS: <a href="https://www.amazon.es/Mascots-Mugs-Characters-Cartoons-Graffiti/dp/0972592040" target="_blank">Enlace a compra</a></p></li>
+            <li><p>LEARNING HOW TO DRAW BASIC GRAFFITI: <a href="https://www.amazon.es/Learning-Draw-Basic-Graffiti-illustrations/dp/B09M172JBG" target="_blank">Enlace a compra</a></p></li>
+            <li><p>NEXT STOP: <a href="https://www.casadellibro.com/libro-next-stop-growing-up-wild-style-in-the-bronx/9781416562672/1779846" target="_blank">Enlace a compra</a></p></li>
+            <li><p>GRAFFITI LETTERING & DRAWING: <a href="https://www.amazon.es/dp/0300199422?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_GS4S60RVCF1K3B6BWBDY" target="_blank">Enlace a compra</a></p></li>
+            <li><p>ULTIMATE STREET ART: <a href="https://www.amazon.es/dp/8496823849?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_FDCS733Q06JASM7HTS05" target="_blank">Enlace a compra</a></p></li>
+            <li><p>GRAFFITI Y ARTE URBANO: <a href="https://hartem.com/atlas-ilustrado-grafiti-y-arte-urbano.html?lighthousefeed_utm_source=GS+-+Google+Shopping+(Via+LighthouseFeed)&lighthousefeed_utm_medium=cpc&lighthousefeed_utm_term=131871&gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVJs6viWJa-AcUoFDfyo22mVoI1xFmyIRsCmiv-km3GS1Ldlrlvm4kaAqXlEALw_wcB" target="_blank">Enlace a compra</a></p></li>
+            <li><p>WORLD ATLAS OF STREET ART AND GRAFFITI: <a href="https://www.amazon.es/dp/0300199422?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_GS4S60RVCF1K3B6BWBDY" target="_blank">Enlace a compra</a></p></li>
+            <li><p>Street Art Fanzine: <a href="https://www.iberlibro.com/servlet/BookDetailsPL?bi=31721505808&dest=esp&ref_=ps_ggl_17323291122&cm_mmc=ggl-_-ES_Shopp_TradeNONISBNstd-_-product_id=bi%3A%2031721505808-_-keyword=&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqWGxgF1My0na-e9YxoLTDRCLUzN6NEyQT6wDNNG1c_485_VSEgRyxcaAsbmEALw_wcB" target="_blank">Enlace a compra</a></p></li>
+            <li><p>El único arte perseguido por la Ley: <a href="https://www.casadellibro.com/libro-graffiti-el-unico-arte-perseguido-por-la-ley/9781507620977/2795618?awc=21491_1714742365_f0102cdf4a161454f9338c874c9a8b81&utm_source=awin&utm_campaign=575373&utm_medium=afiliados&utm_content=Ceon%20Internet%20ApS" target="_blank">Enlace a compra</a></p></li>
+            <li><p>Técnicas y materiales para arte urbano: <a href="https://www.elcorteingles.es/libros/A29809776-street-art-tecnicas-e-materiais-arte-urbano/?gad_source=1&_gl=1*emta99*_up*MQ..&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqUqvQ5AoGB7CzrbwiHeOqPZk3CglsziH2yWEjSY4a5nv5EY03OCF0oaAiEOEALw_wcB&gclsrc=aw.ds target="_blank">Enlace a compra</a></p></li>
+          </ul>
+        </li>
+        <!-- Videos -->
+        <li>
+          <h4>Videos</h4>
+          <ul>
+            <!-- Peliculas-->
+            <li><p>Wild Style: <a href="https://www.youtube.com/watch?v=GaXMfw0IJOo" target="_blank">Enlace a Película</a></p></li>
+            <li><p>Beat Street: <a href="https://ok.ru/video/1743721597538" target="_blank">Enlace a Película</a></p></li>
+            <li><p>Basquiat: <a href="https://www.youtube.com/watch?v=oiJjlv4SwDg" target="_blank">Enlace a Película</a></p></li>
+            <!-- Documentales-->
+            <li><p>Salida por la tienda de regalos: <a href="https://www.youtube.com/watch?v=bS2FFddIvgY" target="_blank">Enlace a Documental</a></p></li>
+            <li><p>Style Wars: <a href="https://www.youtube.com/watch?v=3rv82rldGRs" target="_blank">Enlace a Documental</a></p></li>
+            <li><p>Station of the Elevated: <a href="https://www.youtube.com/watch?v=sGWt87S0f24" target="_blank">Enlace a Documental</a></p></li>
+            <li><p>Una semana con 1UP: <a href="https://www.youtube.com/watch?v=rSdUzc354N4" target="_blank">Enlace a Documental</a></p></li>
+            <!-- Reportajes-->
+            <li><p>Os Gemeos: <a href="https://www.youtube.com/watch?app=desktop&v=tJA1vb9jNIM" target="_blank">Enlace a Reportaje</a></p></li>
+            <li><p>Obey: <a href="https://www.youtube.com/watch?v=w9QKvKI8LIY" target="_blank">Enlace a Reportaje</a></p></li>
+            <li><p>Historia completa del Street Art: <a href="https://www.youtube.com/watch?v=RVoGJWXOmso" target="_blank">Enlace a Reportaje</a></p></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="copyright text-center mt-4">
+      <img src="assets/img/logoFooter.png" width="70" height="45" alt="Logotipo de Graff Crew"> 
+      <p><a href="https://github.es/rubenfdezmartin" target="_blank">© Design : Rubén Fernández Martín </a></p>    
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Copiar código de las fuentes -->
+  <script>
+  document.getElementById("copyButton").addEventListener("click", function() {
+    // Variables para copiar el código
+    var fontCode = document.getElementById("fontCode");
+    var range = document.createRange();
+    // Lógica para copiar el código
+    range.selectNode(fontCode);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+    // Muestro mensaje de "Copiado"
+    alert("Código copiado al portapapeles");
+
+  });
+  </script>
+
+</body>
+
+</html>
