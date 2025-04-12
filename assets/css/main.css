@@ -123,7 +123,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 84px;
+  max-height: 4.5vw;
   margin-right: 8px;
 }
 
@@ -213,7 +213,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 15px;
+    font-size: 0.9vw;
     font-family: var(--nav-font);
     font-weight: 400;
     display: flex;
@@ -589,7 +589,7 @@ section,
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 1vw;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -625,6 +625,7 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 0.7vw;
 }
 
 /*--------------------------------------------------------------
@@ -648,7 +649,7 @@ section,
 
 .bienvenido h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 1vw;
   font-weight: 700;
   line-height: 56px;
 }
@@ -656,7 +657,7 @@ section,
 .bienvenido p {
   color: rgba(var(--default-color-rgb), 0.7);
   margin: 5px 0 30px 0;
-  font-size: 22px;
+  font-size: 0.7vw;
   line-height: 1.3;
   font-weight: 600;
 }
@@ -668,7 +669,7 @@ section,
   background: #ffffff;
   font-family: var(--heading-font);
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.7vw;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px 12px 28px;
@@ -682,7 +683,7 @@ section,
 }
 
 .bienvenido .btn-watch-video {
-  font-size: 16px;
+  font-size: 0.7vw;
   transition: 0.5s;
   margin-left: 25px;
   color: var(--default-color);
@@ -775,8 +776,8 @@ section,
 }
 
 .historia p {
-  line-height: 24px;
-  font-size: 14px;
+  /* line-height: 24px; */
+  font-size: 0.7vw;
   margin-bottom: 0;
 }
 
@@ -848,7 +849,7 @@ section,
 
 .diferenciar-estilos .faq-container .faq-item h3 {
   font-weight: 500;
-  font-size: 17px;
+  font-size: 0.7vw;
   line-height: 24px;
   margin: 0 30px 0 0;
   transition: 0.3s;
@@ -972,19 +973,20 @@ section,
 
 .call-to-action h3 {
   color: var(--default-color);
-  font-size: 28px;
+  font-size: 1.2vw;
   font-weight: 700;
 }
 
 .call-to-action p {
   color: var(--default-color);
+  font-size: 0.7vw;
 }
 
 .call-to-action .cta-btn {
   font-family: var(--heading-font);
   font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-size: 0.8vw;
+  letter-spacing: 10px;
   display: inline-block;
   padding: 12px 40px;
   border-radius: 50px;
@@ -992,6 +994,7 @@ section,
   margin: 10px;
   border: 2px solid var(--contrast-color);
   color: var(--contrast-color);
+  line-height: 0.8vw;
 }
 
 .call-to-action .cta-btn:hover {
@@ -1015,7 +1018,7 @@ section,
   display: inline-block;
   padding: 8px 20px 10px 20px;
   margin: 0;
-  font-size: 15px;
+  font-size: 0.7vw;
   font-weight: 500;
   line-height: 1;
   margin-bottom: 5px;
@@ -1192,14 +1195,14 @@ section,
 
 .footer h4 {
   color: #37517e;
-  font-size: 18px;
+  font-size: 0.7vw;
   margin-bottom: 20px;
 }
 
 .footer p, a {
   color: #050505;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.6vw;
+  /* line-height: 24px; */
 }
 
 .footer ul {
@@ -1278,4 +1281,11 @@ section,
     .footer .footer-links ul li {
       justify-content: center;
     }
+}
+
+.btn-success {
+  background-color:var(--accent-color);
+  font-size:0.7vw;
+  padding:0.6vw;
+  border:none;
 }
