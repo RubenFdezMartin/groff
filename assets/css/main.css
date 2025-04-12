@@ -662,8 +662,10 @@ section,
 }
 
 .bienvenido .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
+  /*color: var(--contrast-color);
+  background: var(--accent-color);*/
+  color: #000000;
+  background: #ffffff;
   font-family: var(--heading-font);
   font-weight: 500;
   font-size: 15px;
